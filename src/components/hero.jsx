@@ -1,14 +1,25 @@
 export default function Hero() {
   return (
-    <div className="bg-green-50 text-center py-16 px-6">
-      <h2 className="text-4xl font-bold text-green-800 mb-4">
+    <div className="bg-purple-50 text-center py-16 px-6">
+      <h2 className="text-4xl font-bold text-purple-800 mb-4">
         AI-Powered Crop Advisory
       </h2>
-      <p className="text-lg text-gray-600 max-w-xl mx-auto">
-        Get personalized farming advice powered by artificial intelligence.
-        Ask about crops, soil, weather, and more.
+
+      {/* Short Description Paragraph */}
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed mb-4">
+        CropAdvisor is a smart farming assistant powered by Artificial Intelligence. 
+        It helps farmers and agricultural professionals make better decisions by 
+        providing real-time advice on crop selection, soil health, weather patterns, 
+        pest control, and irrigation management — all in one place.
       </p>
-      <button className="mt-6 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800">
+
+      <p className="text-md text-gray-500 max-w-xl mx-auto leading-relaxed mb-6">
+        Simply ask your farming question and get instant, personalized 
+        recommendations powered by Gemini AI. Whether you are a small-scale 
+        farmer or a large agricultural business, CropAdvisor is built for you.
+      </p>
+
+      <button className="mt-2 bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition font-semibold shadow-md">
         Get Started
       </button>
     </div>
