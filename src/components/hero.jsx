@@ -14,7 +14,7 @@ export default function Hero() {
       </p>
 
       <p className="text-md text-gray-500 max-w-xl mx-auto leading-relaxed mb-6">
-        Simply ask your farming question and get instant, personalized 
+        Simply ask your farming question and get instant, AI-powered personalized
         recommendations powered by Gemini AI. Whether you are a small-scale 
         farmer or a large agricultural business, CropAdvisor is built for you.
       </p>
